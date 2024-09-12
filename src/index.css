@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Roboto.woff2) format("woff2");
+  }
+}
+
+@font-face {
+  font-family: "Conthrax";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/conthrax-sb.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/Poppins-Regular.ttf") format("truetype"),
+    url("./assets/Poppins-Medium.ttf") format("truetype");
+  /* You can add more variations as needed */
+}
